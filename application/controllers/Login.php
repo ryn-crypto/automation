@@ -5,10 +5,17 @@ require './application/libraries/RestController.php';
     
 use chriskacerguis\RestServer\RestController;
 
-class Produk extends RestController {
+class Login extends RestController {
+
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->model('Login_model');
+	}
 
 	public function index_get()
 	{
-		echo('api already');
+		$User = $this->Login_model->getUser();
+		var_dump($User);
 	}
 }
