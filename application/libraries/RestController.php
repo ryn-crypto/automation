@@ -2,6 +2,8 @@
 
 namespace chriskacerguis\RestServer;
 
+require './vendor/chriskacerguis/codeigniter-restserver/src/format.php';
+
 use Exception;
 use RecursiveArrayIterator;
 use RecursiveIteratorIterator;

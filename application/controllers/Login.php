@@ -15,7 +15,9 @@ class Login extends RestController {
 
 	public function index_get()
 	{
-		$User = $this->Login_model->getUser();
-		var_dump($User);
+		$this->response([
+			'status' 	=> '200',
+			'data'		=> $this->Login_model->getUser() 
+		], RestController::HTTP_OK);
 	}
 }
