@@ -24,7 +24,7 @@ class User extends RestController {
 			$User = $this->User_model->getUser();
 		} else {
 			$User = $this->User_model->getUser($nik);
-		} 
+		}
 
 		// melakukan return
 		if ($User) {
