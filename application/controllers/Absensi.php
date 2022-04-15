@@ -20,7 +20,7 @@ class Absensi extends RestController {
         $nik        = $this->post('nik');
         $today      = $this->post('today');
         $lokasi     = $this->post('lokasi');
-        $waktuAbsen = $this->post('waktu');
+        $waktuAbsen = $this->post('wak');
 
         // query jadwal
         $data = $this->Absensi_model->jadwalAbsen($nik, $today);
