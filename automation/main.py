@@ -5,7 +5,7 @@ import config
 cl = Client()
 cl.login(config.username, config.password)
 
-followuser = ['duratect_id', 'uniglobe_indonesia', 'cpf1windowfilm', 'llumarindonesia']
+followuser = ['list']
 
 # ambil id user
 idUser = []
