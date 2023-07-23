@@ -8,7 +8,7 @@ Use to follow and like account Instagram automatically
 To install this you must have some like
 
 - python3
-- install Instagram
+- install Instagrapi
 - download and set to local directories
 - open automation folder
 - create config.py
